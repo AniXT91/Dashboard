@@ -91,7 +91,7 @@ const Dashboard = () => {
       {/* ─────────── Row 3: lower section ─────────── */}
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-x-24 gap-y-6">
         {/* Left column: payment plan + history */}
-        <div className="space-y-6">
+        <div className="space-y-6 order-2 lg:order-1">
           {/* Payment Plan */}
           <div>
             <h3 className="font-semibold">Your Payment Plan</h3>
@@ -128,7 +128,7 @@ const Dashboard = () => {
         </div>
 
         {/* Right column: profile & details */}
-        <div className="space-y-6">
+        <div className="space-y-6 order-1 lg:order-2">
           <ProfileCard
             name="Renson Gerald"
             unit="#71-BU"
